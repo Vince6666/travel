@@ -2,8 +2,8 @@
   <div>
     <city-header></city-header>
     <city-search></city-search>
-    <city-list :cities="cities" :hotCities="hotCities"></city-list>
-    <city-alpha-bet :cities="cities"></city-alpha-bet>
+    <city-list :cities="cities" :hotCities="hotCities" :letter="letter"></city-list>
+    <city-alpha-bet :cities="cities" @change="letterChanged"></city-alpha-bet>
   </div>
 </template>
 
@@ -24,7 +24,8 @@ export default {
   data () {
     return {
       hotCities:[],
-      cities:{}
+      cities:{},
+      letter:''
     }
   },
   methods:{
@@ -39,7 +40,9 @@ export default {
         this.hotCities = data.hotCities
         this.cities = data.cities
       }
-      
+    },
+    letterChanged (letter) {
+      this.letter = letter
     }
   },
   mounted () {
