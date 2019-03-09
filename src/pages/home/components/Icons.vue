@@ -68,6 +68,11 @@ export default {
             iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png',
             desc: '海洋馆'
           },
+          {
+            id: '010',
+            iconUrl: 'http://img1.qunarzz.com/piao/fusion/1803/de/f26be47a6bf02a02.png',
+            desc: '香港迪士尼'
+          }
       ]
     }
   },
@@ -91,10 +96,11 @@ export default {
 <style lang="stylus" scoped>
   @import '~styles/varibles.styl'
   @import '~styles/mixins.styl'
-.icons
-  overflow hidden
+.icons >>> .swiper-container
   height: 0
   padding-bottom: 50%
+.icons
+  margin-top: .1rem 
   .icon
     overflow: hidden
     position: relative
