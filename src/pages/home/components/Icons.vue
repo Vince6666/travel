@@ -29,15 +29,15 @@ export default {
   },
   computed:{
     pages () {
-        const pages = [];
-        this.iconList.forEach((item,index) => {
-            const page = Math.floor(index / 8)
-            if(!pages[page]){
-                pages[page] = []
-            }
-            pages[page].push(item)
-        })
-        return pages
+      const pages = [];
+      this.iconList.forEach((item,index) => {
+          const page = Math.floor(index / 8)
+          if(!pages[page]){
+            pages[page] = []
+          }
+          pages[page].push(item)
+      })
+      return pages
     }
   }
 }
