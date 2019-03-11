@@ -40,6 +40,9 @@ export default {
   },
   activated () {
     window.addEventListener('scroll',this.handleScroll)
+  },
+  deactivated () {      // 对上面绑定的全局事件进行解绑
+    window.removeEventListener('scroll',this.handleScroll)
   }
 }
 </script>
