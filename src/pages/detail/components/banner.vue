@@ -7,12 +7,15 @@
         <div class="banner-icon"><span class="iconfont">&#xe626;{{this.gallaryImgs.length}}</span></div>
       </div>
     </div>
-    <common-gallery v-show="showGallery" @close="handleBannerClose" :imgs="gallaryImgs"></common-gallery>
+    <banner-animation>
+      <common-gallery v-show="showGallery" @close="handleBannerClose" :imgs="gallaryImgs"></common-gallery>
+    </banner-animation>
   </div>
 </template>
 
 <script>
 import CommonGallery from 'common/gallery/Gallery'
+import BannerAnimation from 'common/animate/Animation'
 export default {
   name:'DetailBanner',
   props:{
@@ -21,7 +24,8 @@ export default {
     bannerImg:String
   },
   components:{
-    CommonGallery
+    CommonGallery,
+    BannerAnimation
   },
   data () {
     return {
