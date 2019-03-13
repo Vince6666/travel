@@ -72,7 +72,9 @@ export default {
     }
   },
   mounted () {
-    this.scroll = new BScroll(this.$refs.wrapper)
+    this.scroll = new BScroll(this.$refs.wrapper,{
+      click:true    // better-scroll 默认会阻止浏览器的原生 click 事件，开启点击事件(解决部分浏览器click无效的问题)
+    })
   }
 }
 </script>
