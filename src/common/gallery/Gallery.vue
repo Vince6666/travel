@@ -44,26 +44,26 @@ export default {
 
 <style lang="stylus" scoped>
   .container >>> .swiper-container
-    overflow inherit
+    overflow: inherit
   .container
-    background-color #000
-    display flex
-    flex-direction column
-    justify-content center
-    position fixed
-    right 0
-    left 0
-    top 0
-    bottom 0
-    z-index 999
+    background-color: #000
+    display: flex
+    flex-direction: column
+    justify-content: center
+    position: fixed
+    right: 0
+    left: 0
+    top: 0
+    bottom: 0
+    z-index: 999
     .wrapper
-      height 0
-      width 100%
-      padding-bottom 100%
+      height: 0
+      width: 100%
+      padding-bottom: 100%
       .gallery-img
-        width 100%  
+        width: 100%  
     .swiper-pagination
-      color #fff
-      bottom -1rem
+      color: #fff
+      bottom: -1rem
 
 </style>

@@ -17,20 +17,20 @@ export default {
 <style lang="stylus" scoped>
   @import '~styles/varibles.styl'
   .header
-    position relative
-    height $headerHeight
-    line-height $headerHeight
-    overflow hidden
-    background-color $bgColor
-    color #fff
-    font-size .32rem
-    text-align center
+    position: relative
+    height: $headerHeight
+    line-height: $headerHeight
+    overflow: hidden
+    background-color: $bgColor
+    color: #fff
+    font-size: .32rem
+    text-align: center
     .header-back
-      position absolute
-      left 0 
-      top 0
-      font-size .4rem 
-      width .64rem
-      text-align center
-      color #fff
+      position: absolute
+      left: 0 
+      top: 0
+      font-size: .4rem 
+      width: .64rem
+      text-align: center
+      color: #fff
 </style>

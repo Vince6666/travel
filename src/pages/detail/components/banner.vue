@@ -46,34 +46,34 @@ export default {
 <style lang="stylus" scoped>
   @import '~styles/varibles.styl'
   .banner
-    overflow hidden
-    height 0
-    padding-bottom 55%
-    position relative
+    overflow: hidden
+    height: 0
+    padding-bottom: 55%
+    position: relative
     .banner-img
-      width 100%
+      width: 100%
     .banner-desc
-      display flex
-      position absolute
-      left 0
-      right 0
-      bottom 0
-      line-height .6rem
-      color #fff
-      background-image linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.6))
+      display: flex
+      position: absolute
+      left: 0
+      right: 0
+      bottom: 0
+      line-height: .6rem
+      color: #fff
+      background-image: linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.6))
       .benner-title
-        flex 1
-        padding 0 .2rem
-        font-size .32rem
+        flex: 1
+        padding: 0 .2rem
+        font-size: .32rem
       .banner-icon
-        line-height .32rem
-        height .32rem
-        padding 0 .4rem
-        margin-top .14rem
-        text-align center        
-        font-size .32rem
-        background rgba(0,0,0,0.6)
-        border-radius .2rem
+        line-height: .32rem
+        height: .32rem
+        padding: 0 .4rem
+        margin-top: .14rem
+        text-align: center        
+        font-size: .32rem
+        background: rgba(0,0,0,0.6)
+        border-radius: .2rem
         .iconfont
-          font-size .28rem        
+          font-size: .28rem        
 </style>

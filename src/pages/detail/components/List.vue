@@ -23,25 +23,25 @@ export default {
 
 <style lang="stylus" scoped>
   .list-item
-    padding 0 0 0 .2rem
-    font-size .32rem
-    color #333
+    padding: 0 0 0 .2rem
+    font-size: .32rem
+    color: #333
     .item-title
-      position relative
-      height .76rem
-      line-height .76rem
-      border-bottom .02rem solid #ccc
+      position: relative
+      height: .76rem
+      line-height: .76rem
+      border-bottom: .02rem solid #ccc
       .ticket-name
-        padding-left .5rem
+        padding-left: .5rem
       .ticket-icon
         display: inline-block
-        position absolute
-        top 0.2rem
-        left 0
-        width .36rem
-        height .36rem
-        background url(http://s.qunarzz.com/piao/image/touch/sight/detail.png) 0 -.45rem no-repeat;
-        background-size .4rem 3rem
+        position: absolute
+        top: 0.2rem
+        left: 0
+        width: .36rem
+        height: .36rem
+        background: url(http://s.qunarzz.com/piao/image/touch/sight/detail.png) 0 -.45rem no-repeat;
+        background-size: .4rem 3rem
     .item-children
-      padding 0 0 0 .2rem
+      padding: 0 0 0 .2rem
 </style>

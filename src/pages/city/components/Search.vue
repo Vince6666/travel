@@ -76,31 +76,31 @@ export default {
 <style lang="stylus" scoped>
   @import '~styles/varibles.styl'
   .search
-    height .72rem
-    background-color $bgColor
+    height: .72rem
+    background-color: $bgColor
     padding: 0 .1rem
-    text-align center
+    text-align: center
     .search-input
-      width 100%
-      height .62rem
-      line-height .62rem
-      box-sizing border-box
-      color #666
-      padding 0 .1rem
-      text-align center
-      border-radius .06rem
+      width: 100%
+      height: .62rem
+      line-height: .62rem
+      box-sizing: border-box
+      color: #666
+      padding: 0 .1rem
+      text-align: center
+      border-radius: .06rem
   .search-content
-    z-index 99 
-    background-color #eee
-    position absolute
-    top 1.58rem
-    left 0
-    right 0
-    bottom 0
-    overflow hidden
+    z-index: 99 
+    background-color: #eee
+    position: absolute
+    top: 1.58rem
+    left: 0
+    right: 0
+    bottom: 0
+    overflow: hidden
     .search-item
-      padding-left .2rem
-      background-color #eee
-      line-height .62rem
-      border-bottom .01rem solid #cccccc
+      padding-left: .2rem
+      background-color: #eee
+      line-height: .62rem
+      border-bottom: .01rem solid #cccccc
 </style>

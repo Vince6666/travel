@@ -84,41 +84,41 @@ export default {
   @import '~styles/varibles.styl'
   .border-topbottom
     &:before
-      border-color #777777
+      border-color: #777777
     &:after
-      border-color #777777
+      border-color: #777777
   .border-bottom
     &:before
-      border-color #777777
+      border-color: #777777
   .list
-    overflow hidden
-    position absolute
-    top 1.58rem
-    left 0
-    right 0
-    bottom 0
+    overflow: hidden
+    position: absolute
+    top: 1.58rem
+    left: 0
+    right: 0
+    bottom: 0
     .title
-      line-height .54rem
-      background-color #eee
-      padding-left .2rem
-      color #666
-      font-size .26rem
+      line-height: .54rem
+      background-color: #eee
+      padding-left: .2rem
+      color: #666
+      font-size: .26rem
     .button-list
-      overflow hidden
-      padding .1rem
-      padding-right .5rem
+      overflow: hidden
+      padding: .1rem
+      padding-right: .5rem
       .button-wrapper
-        float left
-        width 33.3%
+        float: left
+        width: 33.3%
         .button
-          margin .1rem
-          text-align center
-          padding .1rem 0
-          border .02rem solid #cccccc
-          border-radius .1rem
+          margin: .1rem
+          text-align: center
+          padding: .1rem 0
+          border: .02rem solid #cccccc
+          border-radius: .1rem
     .item-list
       .item
-        line-height .76rem
-        padding-left .2rem
+        line-height: .76rem
+        padding-left: .2rem
 
 </style>

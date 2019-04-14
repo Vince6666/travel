@@ -50,37 +50,37 @@ export default {
 <style lang="stylus" scoped>
   @import '~styles/varibles.styl'
   .header-back
-    position absolute
-    top 0.2rem
-    left 0.2rem
-    background rgba(0,0,0,0.6)
-    width 0.8rem
-    height 0.8rem
-    line-height .8rem
-    border-radius .4rem
-    text-align center
+    position: absolute
+    top: 0.2rem
+    left: 0.2rem
+    background: rgba(0,0,0,0.6)
+    width: 0.8rem
+    height: 0.8rem
+    line-height: .8rem
+    border-radius: .4rem
+    text-align: center
     .header-back-icon
-      color #ffffff
-      font-size .4rem
+      color: #ffffff
+      font-size: .4rem
   .header-fixed
-    z-index 999 
-    position fixed
-    top 0
-    left 0
-    right 0
-    height $headerHeight
-    line-height $headerHeight
-    overflow hidden
-    background-color $bgColor
-    color #fff
-    font-size .32rem
-    text-align center
+    z-index: 999 
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    height: $headerHeight
+    line-height: $headerHeight
+    overflow: hidden
+    background-color: $bgColor
+    color: #fff
+    font-size: .32rem
+    text-align: center
     .arrow-icon
-      position absolute
-      left 0 
-      top 0
-      font-size .4rem 
-      width .64rem
-      text-align center
-      color #fff
+      position: absolute
+      left: 0 
+      top: 0
+      font-size: .4rem 
+      width: .64rem
+      text-align: center
+      color: #fff
 </style>
