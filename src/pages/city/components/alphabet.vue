@@ -22,7 +22,7 @@ export default {
     return {
       touchStatus: false,
       startY: 0,
-      timer: null
+      lastTime: 0
     }
   },
   updated () {
@@ -47,16 +47,18 @@ export default {
     handlTouchMove (e) {
       if(this.touchStatus) {
         // 使用函数节流来限制快速的滑动操作
-        if(this.timer) {
-          clearTimeout(this.timer)
-        }
-        this.timer = setTimeout(() => {
+        let nowTime = Date.now()
+        
+        if (nowTime - this.lastTime > 30) {
           const touchY = e.targetTouches[0].clientY - 79
           const index = Math.floor((touchY - this.startY) / 20)
           if(index >= 0 && index < this.letters.length) {
             this.$emit('change',this.letters[index])
           }
-        },15)
+          this.lastTime = nowTime
+        } else {
+          return ''
+        }
       }
     },
     handleTouchEnd () {
